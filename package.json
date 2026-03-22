@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "Mi primer proyecto",
   "keywords": [
-    "aqui se ponen las tags de lo que va a ir"
+    "gym",
+    "html",
+    "javascript"
   ],
   "license": "MIT",
   "author": "yos",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "servor src/ index.html 1234 --reload"
+    "dev": "pnpx servor src/ index.html 1234 --reload"
   },
   "devDependencies": {
     "servor": "4.0.2"
